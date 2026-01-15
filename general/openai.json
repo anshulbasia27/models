@@ -956,6 +956,7 @@
   },
   "text-embedding-ada-002": { "type": { "primary": "embedding" }, "disablePlayground": true },
   "text-moderation-stable": { "type": { "primary": "moderation" }, "disablePlayground": true },
+  "gpt-4o-transcribe-diarize": { "type": { "primary": "audio" }, "disablePlayground": true },
   "text-moderation-latest": { "type": { "primary": "moderation" }, "disablePlayground": true },
   "text-moderation-001": { "type": { "primary": "moderation" }, "disablePlayground": true },
   "o4-mini": {
