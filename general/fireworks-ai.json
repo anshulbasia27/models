@@ -57,7 +57,6 @@
     },
     "disablePlayground": true
   },
-
   "accounts/fireworks/models/firefunction-v1": {
     "name": "firefunction-v1",
     "params": [{ "key": "max_tokens", "maxValue": 4096 }],
