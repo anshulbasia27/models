@@ -1,5 +1,5 @@
 {
-  "name": "lemonfox-ai",
+  "name": "voyage",
   "description": "",
   "default": {
     "params": [
@@ -55,16 +55,88 @@
     "messages": { "options": ["system", "user", "assistant", "developer"] },
     "type": { "primary": "chat", "supported": [] }
   },
-  "llama-8b-chat": {
-    "name": "llama-8b-chat",
-    "type": "chat"
+  "voyage-4-large": {
+    "type": {
+      "primary": "embedding"
+    },
+    "disablePlayground": true
   },
-  "llama-70b-chat": {
-    "name": "llama-70b-chat",
-    "type": "chat"
+  "voyage-4": {
+    "type": {
+      "primary": "embedding"
+    },
+    "disablePlayground": true
   },
-  "mixtral-chat": {
-    "name": "mixtral-chat",
-    "type": "chat"
+  "voyage-4-lite": {
+    "type": {
+      "primary": "embedding"
+    },
+    "disablePlayground": true
+  },
+
+  "voyage-3-large": {
+    "type": {
+      "primary": "embedding"
+    },
+    "disablePlayground": true
+  },
+
+  "voyage-3.5": {
+    "type": {
+      "primary": "embedding"
+    },
+    "disablePlayground": true
+  },
+
+  "voyage-3.5-lite": {
+    "type": {
+      "primary": "embedding"
+    },
+    "disablePlayground": true
+  },
+
+  "voyage-code-3": {
+    "type": {
+      "primary": "embedding"
+    },
+    "disablePlayground": true
+  },
+
+  "voyage-finance-2": {
+    "type": {
+      "primary": "embedding"
+    },
+    "disablePlayground": true
+  },
+
+  "voyage-law-2": {
+    "type": {
+      "primary": "embedding"
+    },
+    "disablePlayground": true
+  },
+  "voyage-context-3": {
+    "type": {
+      "primary": "embedding"
+    },
+    "disablePlayground": true
+  },
+  "voyage-multimodal-3.5": {
+    "type": {
+      "primary": "embedding"
+    },
+    "disablePlayground": true
+  },
+  "rerank-2.5": {
+    "type": {
+      "primary": "rerank"
+    },
+    "disablePlayground": true
+  },
+  "rerank-2.5-lite": {
+    "type": {
+      "primary": "rerank"
+    },
+    "disablePlayground": true
   }
 }

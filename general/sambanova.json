@@ -1,5 +1,5 @@
 {
-  "name": "lemonfox-ai",
+  "name": "sambanova",
   "description": "",
   "default": {
     "params": [
@@ -55,16 +55,74 @@
     "messages": { "options": ["system", "user", "assistant", "developer"] },
     "type": { "primary": "chat", "supported": [] }
   },
-  "llama-8b-chat": {
-    "name": "llama-8b-chat",
-    "type": "chat"
+  "deepseek/deepseek-r1-0528": {
+    "type": {
+      "primary": "chat"
+    }
   },
-  "llama-70b-chat": {
-    "name": "llama-70b-chat",
-    "type": "chat"
+  "deepseek/deepseek-v3-0324": {
+    "type": {
+      "primary": "chat"
+    }
   },
-  "mixtral-chat": {
-    "name": "mixtral-chat",
-    "type": "chat"
+  "deepseek/deepseek-v3.1": {
+    "type": {
+      "primary": "chat"
+    }
+  },
+  "deepseek/deepseek-r1-distill-llama-70b": {
+    "type": {
+      "primary": "chat"
+    }
+  },
+  "meta/meta-llama-3.3-70b-instruct": {
+    "type": {
+      "primary": "chat"
+    }
+  },
+  "meta/meta-llama-3.1-8b-instruct": {
+    "type": {
+      "primary": "chat"
+    }
+  },
+  "qwen/qwen3-235b-a22b-instruct-2507": {
+    "type": {
+      "primary": "chat"
+    }
+  },
+  "qwen/qwen3-32b": {
+    "type": {
+      "primary": "chat"
+    }
+  },
+  "tokyotech-llm/llama-3.3-swallow-70b-instruct-v0.4": {
+    "type": {
+      "primary": "chat"
+    }
+  },
+  "openai/gpt-oss-120b": {
+    "type": {
+      "primary": "chat",
+      "supported": ["code"]
+    }
+  },
+  "openai/whisper-large-v3": {
+    "type": {
+      "primary": "audio"
+    },
+    "disablePlayground": true
+  },
+  "intfloat/e5-mistral-7b-instruct": {
+    "type": {
+      "primary": "embedding"
+    },
+    "disablePlayground": true
+  },
+  "meta/llama-4-maverick-17b-128e-instruct": {
+    "type": {
+      "primary": "chat",
+      "supported": ["image"]
+    },
+    "disablePlayground": true
   }
 }

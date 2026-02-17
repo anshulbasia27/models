@@ -1,5 +1,5 @@
 {
-  "name": "lemonfox-ai",
+  "name": "reka-ai",
   "description": "",
   "default": {
     "params": [
@@ -55,16 +55,29 @@
     "messages": { "options": ["system", "user", "assistant", "developer"] },
     "type": { "primary": "chat", "supported": [] }
   },
-  "llama-8b-chat": {
-    "name": "llama-8b-chat",
-    "type": "chat"
+  "reka-flash-research": {
+    "type": {
+      "primary": "chat"
+    }
   },
-  "llama-70b-chat": {
-    "name": "llama-70b-chat",
-    "type": "chat"
+  "reka-flash-research-20250708": {
+    "type": {
+      "primary": "chat"
+    }
   },
-  "mixtral-chat": {
-    "name": "mixtral-chat",
-    "type": "chat"
+  "reka-spark": {
+    "type": {
+      "primary": "chat"
+    }
+  },
+  "reka-flash": {
+    "type": {
+      "primary": "chat"
+    }
+  },
+  "reka-core": {
+    "type": {
+      "primary": "chat"
+    }
   }
 }

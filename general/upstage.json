@@ -1,5 +1,5 @@
 {
-  "name": "lemonfox-ai",
+  "name": "upstage",
   "description": "",
   "default": {
     "params": [
@@ -55,16 +55,34 @@
     "messages": { "options": ["system", "user", "assistant", "developer"] },
     "type": { "primary": "chat", "supported": [] }
   },
-  "llama-8b-chat": {
-    "name": "llama-8b-chat",
-    "type": "chat"
+  "solar-pro3": {
+    "type": {
+      "primary": "chat"
+    }
   },
-  "llama-70b-chat": {
-    "name": "llama-70b-chat",
-    "type": "chat"
+  "solar-pro2": {
+    "type": {
+      "primary": "chat"
+    }
   },
-  "mixtral-chat": {
-    "name": "mixtral-chat",
-    "type": "chat"
+  "solar-mini3": {
+    "type": {
+      "primary": "chat"
+    }
+  },
+  "syn-pro3": {
+    "type": {
+      "primary": "chat"
+    }
+  },
+  "solar-pro2-nightly": {
+    "type": {
+      "primary": "chat"
+    }
+  },
+  "solar-mini-nightly": {
+    "type": {
+      "primary": "chat"
+    }
   }
 }

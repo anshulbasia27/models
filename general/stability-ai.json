@@ -1,5 +1,5 @@
 {
-  "name": "lemonfox-ai",
+  "name": "stability-ai",
   "description": "",
   "default": {
     "params": [
@@ -55,16 +55,66 @@
     "messages": { "options": ["system", "user", "assistant", "developer"] },
     "type": { "primary": "chat", "supported": [] }
   },
-  "llama-8b-chat": {
-    "name": "llama-8b-chat",
-    "type": "chat"
+  "stabilityai/stablelm-2-1_6b": {
+    "type": {
+      "primary": "chat"
+    }
   },
-  "llama-70b-chat": {
-    "name": "llama-70b-chat",
-    "type": "chat"
+  "stabilityai/stablelm-2-1_6b-chat": {
+    "type": {
+      "primary": "chat"
+    }
   },
-  "mixtral-chat": {
-    "name": "mixtral-chat",
-    "type": "chat"
+  "stabilityai/stablelm-2-1_12b-chat": {
+    "type": {
+      "primary": "chat"
+    }
+  },
+  "stabilityai/stablelm-zephyr-3b": {
+    "type": {
+      "primary": "chat"
+    }
+  },
+  "stabilityai/stable-diffusion-3-medium": {
+    "type": {
+      "primary": "image"
+    },
+    "disablePlayground": true
+  },
+  "stabilityai/stable-diffusion-xl-base-1.0": {
+    "type": {
+      "primary": "image"
+    },
+    "disablePlayground": true
+  },
+  "stabilityai/stable-diffusion-xl-1024-v1-0": {
+    "type": {
+      "primary": "image"
+    },
+    "disablePlayground": true
+  },
+  "stabilityai/sdxl-turbo": {
+    "type": {
+      "primary": "image"
+    },
+    "disablePlayground": true
+  },
+  "stabilityai/stable-audio-open-1.0": {
+    "type": {
+      "primary": "audio"
+    },
+    "disablePlayground": true
+  },
+  "stabilityai/stable-code-3b": {
+    "type": {
+      "primary": "chat",
+      "supported": ["code"]
+    }
+  },
+  "stabilityai/stable-code-instruct-3b": {
+    "type": {
+      "primary": "chat",
+      "supported": ["code"]
+    }
   }
 }
