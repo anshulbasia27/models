@@ -110,19 +110,19 @@
     "type": { "primary": "chat", "supported": [] }
   },
   "cogview-4-250304": {
-    "type": { "primary": "chat", "supported": [] },
+    "type": { "primary": "image", "supported": [] },
     "disablePlayground": true
   },
   "cogview-3-plus": {
-    "type": { "primary": "chat", "supported": [] },
+    "type": { "primary": "image", "supported": [] },
     "disablePlayground": true
   },
   "cogview-3-flash": {
-    "type": { "primary": "chat", "supported": [] },
+    "type": { "primary": "image", "supported": [] },
     "disablePlayground": true
   },
   "cogview-3": {
-    "type": { "primary": "chat", "supported": [] },
+    "type": { "primary": "image", "supported": [] },
     "disablePlayground": true
   },
   "glm-4-assistant": {
